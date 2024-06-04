@@ -28,11 +28,11 @@ body {
 }
 
 .one {
-    padding: 20px;
+    margin-bottom: 20px;
     background-color: #9b59c9;
 }
 
 .two {
-    padding: 20px;
+    margin-bottom: 20px;
     background-color: #9b59c9;
 }
