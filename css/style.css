@@ -1,9 +1,9 @@
 h1 {
-    color: #ceffce;
-    background-color: rgb(150, 96, 129);
+    color: #9b59c9;
+    background-color: #efe0ff;
+    border-style: groove;
     font-family: serif;
     text-align: center;
-    box-shadow: 10px 10px 5px #ceffce;
 }
 
 h2 {
@@ -12,14 +12,27 @@ h2 {
 
 a {
     text-decoration-line: none;
-    color: crimson;
+    color: #efe0ff;
     font-family: serif;
-    transition: all; width: 2s;
 }
 
 a:hover {
-    color: rgb(22, 17, 94);
+    color: #e3afbc;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
-    width: 300px;
+    text-shadow: 1px 1px 2px #ee4c7c, 0 0 25px #9a1750, 0 0 5px #e3e2df; 
+
+}
+
+body {
+    background: url(Cloud\ BG.jpg);
+}
+
+.one {
+    padding: 20px;
+    background-color: #9b59c9;
+}
+
+.two {
+    padding: 20px;
+    background-color: #9b59c9;
 }
