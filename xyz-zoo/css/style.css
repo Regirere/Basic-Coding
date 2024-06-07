@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Zen Antique Soft';
     margin: 0px;
@@ -7,18 +11,34 @@ body {
 }
 
 body {
-    background-color: #3f4b5a;
+    background: url(background.png) no-repeat;
 }
 
-.species a {
+h4 {
+    color: #f8eeee;
+}
+
+.classification {
     display: inline-block;
 }
 
 .bottom {
-    background-color: rgb(110, 153, 153);
+    background-color: #471c0f;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom p a{
     text-decoration: none;
+    color: #f8eeee;
+}
+
+.bottom p {
+    display: inline-block;
+}
+
+.bottom #source {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
 }

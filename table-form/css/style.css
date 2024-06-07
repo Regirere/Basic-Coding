@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+* {
+    background-color: rgb(255, 151, 199);
+    font-family: 'Zen Antique Soft';
+    margin: 50px 400 10px;
+    padding: 0px;
+    align-items: center;
+}
+
+p.big {
+    line-height: 3.0;
+}
+
+p.small {
+    line-height: 2.0;
+}
+
+table, th, td {
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+
+input, select, textarea {
+    background-color: aliceblue;
+}
