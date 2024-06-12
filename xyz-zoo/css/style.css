@@ -2,17 +2,18 @@
 
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     font-family: 'Zen Antique Soft';
-    margin: 0px;
-    padding: 0px;
     width: 100%;
 }
 
 body {
-    background-color: #9cc495;
+    background-image: url(Untitled\ design.png);
+    background-size: cover;
 }
 
 h1 {
@@ -23,7 +24,8 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #1e440a;
+    color: #c8f3c0;
+    background-color: #24162e;
 }
 
 h4 {
@@ -69,6 +71,7 @@ li {
 .classification {
     display: inline-flex;
     list-style: none;
+    justify-content: center;   
 }
 
 .bottom {
@@ -76,6 +79,7 @@ li {
     text-align: center;
     display: flex;
     justify-content: center;
+    padding: 15px 0;
 }
 
 .bottom p a{
@@ -93,22 +97,25 @@ li {
 }
 
 .animal {
-    display: flexbox;
+    display: block;
     background-color: #5c9110;
     padding: 10px;
+    justify-items: center;
 }
 
 .animal-list {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-right: 5px;
     margin-left: 5px;
     padding: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 .boxbody {
-    margin: auto;
+    margin: 0 auto;
     justify-content: center;
-    margin: 0%;
-    padding: 0%;
+    padding-left: 150px;
+    align-items: center;
 }
