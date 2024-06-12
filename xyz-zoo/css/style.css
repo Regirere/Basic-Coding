@@ -47,7 +47,7 @@ li {
 }
 
 .top {
-    background: url(/xyz-zoo/Images/zoo.jpg) center;
+    background: url(zoo.jpg) center;
     background-size: cover;
     align-items: center;
     justify-content: center;
